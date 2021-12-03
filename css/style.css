@@ -27,13 +27,13 @@
     display: flex;
 }
 .reviews__ratings__bar{
-    /* width: 100%;
-    background-color: grey; */
+    width: 11rem;
+    background-color: grey;
 }
 .reviews__ratings--bar-5-star{
-    /* width: 40%; 
-    height: 38px; 
-    background-color: red; */
+    width: 40%; 
+    height: 1rem; 
+    background-color: red; 
 
 }
 .reviews__actions{
