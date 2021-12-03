@@ -16,8 +16,12 @@
 
 .btn{
     border: none;
-    color:#fff;
-    font-size: 1.5rem;
+    color:black;
+    font-size: 13px;
     font-weight: 300;
     cursor: pointer;
+    padding: 3px 20px;
+    border-radius: 3px;
+    font-weight: 700;
+    box-shadow: 2px 3px 5px 0 #8888886b;
 }
