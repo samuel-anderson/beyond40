@@ -4,10 +4,15 @@
     fill: black;
 } */
 
+.container{
+    display: flex;
+    justify-content: center;
+}
 /********** REVIEWS ****************/
 
 .reviews{
     display: flex;
+    justify-content: space-around;
 }
 .reviews__overview{
     display: flex;
@@ -16,6 +21,9 @@
 .reviews__ratings{
     display: flex;
     flex-direction: column;
+}
+.reviews__ratings__summary{
+    display: flex;
 }
 .reviews__actions{
     display: flex;
