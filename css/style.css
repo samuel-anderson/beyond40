@@ -9,12 +9,15 @@
 .reviews{
     display: flex;
 }
-
 .reviews__overview{
     display: flex;
     flex-direction: column;
 }
 .reviews__ratings{
+    display: flex;
+    flex-direction: column;
+}
+.reviews__actions{
     display: flex;
     flex-direction: column;
 }
