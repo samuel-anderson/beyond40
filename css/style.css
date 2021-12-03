@@ -71,6 +71,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 2px 3px 5px 0 #8888886b;
 }
 
 .reviews__actions--writereview{
@@ -78,4 +79,5 @@
     justify-content: center;
     align-items: center;
     margin-left: 4rem;
+    box-shadow: 2px 3px 5px 0 #8888886b;
 }
