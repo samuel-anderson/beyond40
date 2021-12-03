@@ -21,6 +21,7 @@
     margin-right: 1.5rem;
 }
 .reviews__overview--rating{
+    font-family: Montserrat,sans-serif;
     font-size: 37px;
     line-height: 30px;
     font-weight: 700;
