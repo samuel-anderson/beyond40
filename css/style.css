@@ -20,7 +20,7 @@
     flex-direction: column;
     margin-right: 1.5rem;
 }
-.reviews__overview--starrating{
+.reviews__overview--rating{
     font-size: 37px;
     line-height: 30px;
     font-weight: 700;
