@@ -28,11 +28,13 @@
 }
 .reviews__ratings__bar{
     width: 11rem;
+    height: 1rem;
+    margin: 0 5px 0 5px;
     background-color: grey;
 }
 .reviews__ratings--bar-5-star{
     width: 40%; 
-    height: 1rem; 
+    height: 100%; 
     background-color: red; 
 
 }
