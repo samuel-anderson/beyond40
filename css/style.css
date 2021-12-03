@@ -65,6 +65,7 @@
     justify-content: space-between;
     align-items: center;
     margin-left: 1.5rem;
+    padding: 10px 20px;
 }
 .reviews__actions--askquestion{
     display: flex;
