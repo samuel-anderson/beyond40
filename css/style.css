@@ -8,6 +8,10 @@
     display: flex;
     justify-content: center;
 }
+.heading{
+    font-family: Montserrat,sans-serif;
+    font-weight: 900;
+}
 /********** REVIEWS ****************/
 
 .reviews{
