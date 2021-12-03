@@ -22,6 +22,8 @@
 .reviews__ratings{
     display: flex;
     flex-direction: column;
+    margin: 0 1.5rem 0 1.5rem;
+    border-left: 1px solid #eee;
 }
 .reviews__ratings__summary{
     display: flex;
