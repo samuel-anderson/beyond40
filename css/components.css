@@ -29,4 +29,8 @@
     font-weight: 700;
     background-color: white;
     border: 1px solid #ccd6e0;
+    
+    border-radius: 3px;
+    box-shadow: 2px 3px 5px 0 #8888886b;
+    padding: 10px 20px;
 }
