@@ -25,6 +25,7 @@
 }
 .reviews__ratings__summary{
     display: flex;
+    align-items: center;
 }
 .reviews__ratings__bar{
     width: 11rem;
