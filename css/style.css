@@ -24,8 +24,13 @@
     font-family: Montserrat,sans-serif;
     font-size: 37px;
     line-height: 30px;
-    font-weight: 700;
+    font-weight: 800;
 
+}
+.reviews__overview--summary{
+    font-size: 1.5rem;
+    margin-top: 10px;
+    font-family: Lato,sans-serif;
 }
 .reviews__ratings{
     display: flex;
