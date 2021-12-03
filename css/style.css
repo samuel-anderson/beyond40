@@ -13,6 +13,7 @@
 .reviews{
     display: flex;
     justify-content: space-around;
+    margin: 0 5rem 0 5rem;
 }
 .reviews__overview{
     display: flex;
@@ -24,6 +25,16 @@
 }
 .reviews__ratings__summary{
     display: flex;
+}
+.reviews__ratings__bar{
+    width: 100%;
+    background-color: grey;
+}
+.reviews__ratings--bar-5-star{
+    width: 40%; 
+    height: 38px; 
+    background-color: red;
+
 }
 .reviews__actions{
     display: flex;
