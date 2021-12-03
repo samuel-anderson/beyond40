@@ -2,3 +2,7 @@ BEM - Flexbox
 Dynamic Data
 Mobile Responsiveness - Media Queries
 CSS3 Animation
+
+jQuery:
+- Dynamic Rating Bars
+- Dynamic Rating Counts
