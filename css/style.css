@@ -18,6 +18,7 @@
 .reviews__overview{
     display: flex;
     flex-direction: column;
+    margin-right: 1.5rem;
 }
 .reviews__ratings{
     display: flex;
@@ -45,4 +46,5 @@
 .reviews__actions{
     display: flex;
     flex-direction: column;
+    margin-left: 1.5rem;
 }
