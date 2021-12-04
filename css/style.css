@@ -176,6 +176,6 @@
 .popup__content{
     width: 75%;
     background-color: white;
-    opacity: 0;
+    opacity: 1;
     z-index: 9999;
 }
