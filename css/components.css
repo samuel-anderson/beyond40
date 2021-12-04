@@ -34,7 +34,7 @@
     stroke: #999
 }
 
-.btn{
+.btn, .btn:visited{
     color:black;
     font-size: 13px;
     font-weight: 300;
