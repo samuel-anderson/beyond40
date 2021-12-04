@@ -13,8 +13,8 @@
 }
 
 @keyframes spin {
-    0%{transform: translateY(-10px);}
+    0%{transform: translateY(-10px) rotate(0deg);}
     /*10%{transform: translateY(0);}
     90%{transform: translateY(0);}*/
-    100%{transform: translateY(10px);}
+    100%{transform: translateY(10px) rotate(360deg);}
 }
