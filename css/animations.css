@@ -14,7 +14,7 @@
 
 @keyframes spin {
     0%{transform: translateY(-3px);}
-    10%{transform: translateY(0);}
-    90%{transform: translateY(0);}
+    /*10%{transform: translateY(0);}
+    90%{transform: translateY(0);}*/
     100%{transform: translateY(3px);}
 }
