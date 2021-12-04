@@ -33,7 +33,7 @@ $(function(){
         const twoStar =  Math.round(data.twoStar / total * 10)
         const oneStar =  Math.round(data.oneStar / total * 10)
 
-        //$(".reviews__ratings--bar-5-star").css("width", fiveStar + "%" );
+        $(".reviews__ratings--bar-5-star").css("width", fiveStar + "%" );
 
 
 
