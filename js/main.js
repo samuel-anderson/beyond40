@@ -25,9 +25,8 @@ $(function(){
     populateRatingCounts();
     
     $("#writereview").click(() => {
-        $("#popup").css("visibility", "visible");
-        $("#popup").css("opacity", 1)
-
+        //$("#popup").css("visibility", "visible");
+        //$("#popup").css("opacity", 1);
     })
 
   
