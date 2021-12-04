@@ -137,8 +137,7 @@
     transform: translateY(.1rem);
 }
 
-.reviews__actions--writereview,
-.reviews__actions--writereview:focus::after{
+.reviews__actions--writereview{
     display: flex;
     justify-content: center;
     align-items: center;
