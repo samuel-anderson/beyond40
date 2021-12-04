@@ -38,7 +38,7 @@ $(function(){
     calculateRatingBars()
     
     $(".reviews__actions--writereview").click(()=> {
-        $(this).css("visibility","visible");
+        $(".popup").css("visibility","visible");
     })
 
 
