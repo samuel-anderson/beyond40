@@ -53,7 +53,7 @@
 .reviews__ratings__bar{
     width: 11rem;
     height: 1rem;
-    margin: 0 5px 0 5px;
+    margin: 0 10px 0 10px;
     background-color: #f0f0f0;
 }
 .reviews__ratings--bar-5-star{

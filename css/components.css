@@ -19,6 +19,7 @@
     width: 1.5rem;
     height: 1.5rem;
     fill: #ffab41;
+    animation: pulsate 1s infinite;
 
     
 }
