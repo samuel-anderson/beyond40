@@ -186,6 +186,7 @@
 .popup__close{
     font-size: 3rem;
     line-height: 1;
+    color: #777;
 
     align-self: flex-end;
     margin-right: 1rem;
