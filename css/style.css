@@ -155,3 +155,16 @@
     transform: translateY(.1rem);
 }
 
+.popup{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: .8;
+    z-index: 9999;
+
+    opacity: 0;
+    visibility: hidden;
+}

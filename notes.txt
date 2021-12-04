@@ -1,8 +1,14 @@
-BEM - Flexbox
-Dynamic Data
-Mobile Responsiveness - Media Queries
-CSS3 Animation
-
 jQuery:
-- Dynamic Rating Bars
-- Dynamic Rating Counts
+    - Populates ratings and total reviews text
+    - Calculates rating bar percentage widths
+
+css:
+    - OnHover animation for 4.9 rating 
+    - Pulsing animation for 5 star rating 
+    - OnHover opacity effect for rating bar 
+    - Onhover effect for reviews heading 
+    - OnHover effect for action buttons (pressing illusion)
+
+mobile responsiveness:
+    - media queries for small devices
+    - screenshots under moible_screenshots folder in project director
