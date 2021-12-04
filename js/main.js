@@ -22,7 +22,24 @@ $(function(){
         $("#1-star-count").text(data.oneStar)
     }
 
+    const calculateRatingBars = () => {
+
+
+        const total = data.totalReviews;
+
+        const fiveStar =  Math.round(data.fiveStar / total * 10)
+        const fourStar =  Math.round(data.fourStar / total * 10)
+        const threeStar =  Math.round(data.threeStar / total * 10)
+        const twoStar =  Math.round(data.twoStar / total * 10)
+        const oneStar =  Math.round(data.oneStar / total * 10)
+
+        
+
+    }
+
     populateRatingCounts();
+
+    calculateRatingBars()
     
 
 
