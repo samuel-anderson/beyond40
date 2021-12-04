@@ -52,10 +52,7 @@
 
 }
 
-.reviews__overview--rating:hover{
-    animation: spin 3s ease-out;
 
-}
 .reviews__overview--summary{
     font-size: 15px;
     margin-top: 10px;
