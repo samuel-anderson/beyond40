@@ -26,7 +26,7 @@ $(function(){
     
     $("#writereview").click((e) => {
         e.preventDefault();
-        $("#popup").css("display", "block");
+        $("#popup").css("visibility", "visible");
         $("#popup").css("opacity", 1);
     })
 
