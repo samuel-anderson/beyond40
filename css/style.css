@@ -50,10 +50,13 @@
     line-height: 30px;
     font-weight: 800;
 
-    transform-origin: 50% 4px;
+    
 
-    animation: ring 4s .7s ease-in-out infinite;
+}
 
+.reviews__overview--rating:hover{
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
 }
 
 
