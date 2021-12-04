@@ -57,7 +57,7 @@
     transform: translateY(-.3rem);
 }
 
-.btn:focus{
+.reviews__actions--askquestion > .btn:focus{
     box-shadow: 5px 6px 8px 0 #8888886b;
     transform: translateY(-.1rem);
 }
