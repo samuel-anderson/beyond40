@@ -170,5 +170,10 @@
     opacity: 0;
     visibility: hidden;
 
+    transition: all .3s;
+}
 
+.popup:target{
+    opacity: 1;
+    visibility: visible
 }
