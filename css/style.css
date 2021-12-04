@@ -50,7 +50,7 @@
     line-height: 30px;
     font-weight: 800;
 
-    animation: ring 3s ease infinite;
+    animation: shake 3s ease infinite;
 
 }
 
