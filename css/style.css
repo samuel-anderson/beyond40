@@ -82,10 +82,31 @@
     
 }
 
+.reviews__actions--askquestion:hover{
+    box-shadow: 5px 6px 8px 0 #8888886b;
+    transform: translateY(-.3rem);
+}
+
+.reviews__actions--askquestion:active{
+    box-shadow: none;
+    transform: translateY(.1rem);
+}
+
 .reviews__actions--writereview{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 15px;
 
+}
+
+
+.reviews__actions--writereview:hover{
+    box-shadow: 5px 6px 8px 0 #8888886b;
+    transform: translateY(-.3rem);
+}
+
+.reviews__actions--writereview:active{
+    box-shadow: none;
+    transform: translateY(.1rem);
 }
