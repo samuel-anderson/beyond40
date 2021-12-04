@@ -173,7 +173,3 @@
     transition: all .3s;
 }
 
-.popup:target{
-    opacity: 1;
-    visibility: visible
-}
