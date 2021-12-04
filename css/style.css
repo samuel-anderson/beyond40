@@ -56,10 +56,25 @@
     margin: 0 10px 0 10px;
     background-color: #f0f0f0;
 }
-.reviews__ratings--bar-5-star{
-    width: 40%; 
+.reviews__ratings--bar{
     height: 100%; 
     background-color: #ffab41; 
+
+}
+.reviews__ratings--bar-5-star{
+    width: 80%; 
+}
+.reviews__ratings--bar-4-star{
+    width: 60%; 
+}
+.reviews__ratings--bar-3-star{
+    width: 20%; 
+}
+.reviews__ratings--bar-2-star{
+    width: 17%; 
+}
+.reviews__ratings--bar-1-star{
+    width: 5%; 
 
 }
 
@@ -77,9 +92,7 @@
 .reviews__actions--askquestion{
     display: flex;
     justify-content: center;
-    align-items: center;
-
-    
+    align-items: center;  
 }
 
 .reviews__actions--askquestion:hover{
