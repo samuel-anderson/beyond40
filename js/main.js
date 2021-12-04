@@ -13,7 +13,7 @@ $(function(){
 
 
     const populateRatingCounts = () => {
-        $("#totalReviews").text(data.totalReviews);
+        $("#totalReviews").text(formatNumber(data.totalReviews));
         $("#5-star-count").text(data.fiveStar);
         $("#4-star-count").text(data.fourStar)
         $("#3-star-count").text(data.threeStar)
@@ -21,6 +21,9 @@ $(function(){
         $("#1-star-count").text(data.oneStar)
     }
 
+    const formatNumber = (num) => {
+        return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    }
 
   
 });
