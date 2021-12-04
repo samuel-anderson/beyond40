@@ -179,3 +179,8 @@
     opacity: 1;
     z-index: 9999;
 }
+
+.popup__close{
+    font-size: 3rem;
+    line-height: 1;
+}
