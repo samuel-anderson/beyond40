@@ -27,13 +27,17 @@ $(function(){
 
         const total = data.totalReviews;
 
-        const fiveStar =  Math.round(data.fiveStar / total * 10)
-        const fourStar =  Math.round(data.fourStar / total * 10)
-        const threeStar =  Math.round(data.threeStar / total * 10)
-        const twoStar =  Math.round(data.twoStar / total * 10)
-        const oneStar =  Math.round(data.oneStar / total * 10)
+        const fiveStar =  Math.round(data.fiveStar / total * 100)
+        const fourStar =  Math.round(data.fourStar / total * 100)
+        const threeStar =  Math.round(data.threeStar / total * 100)
+        const twoStar =  Math.round(data.twoStar / total * 100)
+        const oneStar =  Math.round(data.oneStar / total * 100)
 
         $(".reviews__ratings--bar-5-star").css("width", fiveStar + "%" );
+        $(".reviews__ratings--bar-4-star").css("width", fourStar + "%" );
+        $(".reviews__ratings--bar-3-star").css("width", threeStar + "%" );
+        $(".reviews__ratings--bar-2-star").css("width", twoStar + "%" );
+        $(".reviews__ratings--bar-1-star").css("width", oneStar + "%" );
 
 
 
