@@ -167,4 +167,14 @@
 
     opacity: 0;
     visibility: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup__content{
+    width: 75%;
+        background-color: white;
+        opacity: 0;
 }
