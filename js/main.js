@@ -12,6 +12,10 @@ $(function(){
     const formatNumber = (num) => {
         return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     }
+
+    const calcPercentage = (rating) => {
+        return Math.round(rating / data.totalReviews * 100)
+    }
     
     const populateRatingCounts = () => {
         $("#totalReviews").text(formatNumber(data.totalReviews));
@@ -23,28 +27,14 @@ $(function(){
     }
 
     const calculateRatingBars = () => {
-
-
-        const total = data.totalReviews;
-
-        const fiveStar =  Math.round(data.fiveStar / total * 100)
-        const fourStar =  Math.round(data.fourStar / total * 100)
-        const threeStar =  Math.round(data.threeStar / total * 100)
-        const twoStar =  Math.round(data.twoStar / total * 100)
-        const oneStar =  Math.round(data.oneStar / total * 100)
-
-        $(".reviews__ratings--bar-5-star").css("width", fiveStar + "%" );
-        $(".reviews__ratings--bar-4-star").css("width", fourStar + "%" );
-        $(".reviews__ratings--bar-3-star").css("width", threeStar + "%" );
-        $(".reviews__ratings--bar-2-star").css("width", twoStar + "%" );
-        $(".reviews__ratings--bar-1-star").css("width", oneStar + "%" );
-
-
-
+        $(".reviews__ratings--bar-5-star").css("width", calcPercentage(data.fiveStar) + "%" );
+        $(".reviews__ratings--bar-4-star").css("width", calcPercentage(data.fourStar) + "%" );
+        $(".reviews__ratings--bar-3-star").css("width", calcPercentage(data.threeStar) + "%" );
+        $(".reviews__ratings--bar-2-star").css("width", calcPercentage(data.twoStar) + "%" );
+        $(".reviews__ratings--bar-1-star").css("width", calcPercentage(data.oneStar) + "%" );
     }
 
     populateRatingCounts();
-
     calculateRatingBars()
     
 
