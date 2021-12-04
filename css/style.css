@@ -194,3 +194,7 @@
     align-self: flex-end;
     margin-right: 1rem;
 }
+
+.popup__form{
+    display: flex;
+}
