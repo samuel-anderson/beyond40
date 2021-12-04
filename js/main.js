@@ -39,6 +39,7 @@ $(function(){
     
     $(".reviews__actions--writereview").click(()=> {
         $(".popup").css("visibility","visible");
+        $(".popup").css("opacity",.8);
     })
 
 
