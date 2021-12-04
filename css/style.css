@@ -67,6 +67,7 @@
 }
 #totalReviews{
     text-decoration: underline;
+    font-weight: 900;
 }
 .reviews__ratings{
     display: flex;
