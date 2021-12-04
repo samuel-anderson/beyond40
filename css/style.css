@@ -46,9 +46,16 @@
     border-left: 1px solid #eee;
     border-right: 1px solid #eee;
 }
+
+.reviews__ratings:hover{
+    opacity: .5;
+}
 .reviews__ratings__summary{
     display: flex;
     align-items: center;
+}
+.reviews__ratings__summary:hover{
+    opacity: 1 !important;
 }
 .reviews__ratings__bar{
     width: 11rem;
