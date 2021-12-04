@@ -24,11 +24,7 @@ $(function(){
 
     populateRatingCounts();
     
-    $("#writereview").click((e) => {
-        e.preventDefault();
-        $("#popup").css("visibility", "visible");
-        $("#popup").css("opacity", 1);
-    })
+
 
   
 });
