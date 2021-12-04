@@ -197,5 +197,6 @@
 
 .popup__form{
     font-style: italic;
-    font-size: 10px;
+    font-size: 13px;
+    text-align: center;
 }
