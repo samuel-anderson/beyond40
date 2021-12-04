@@ -24,7 +24,7 @@
     
 }
 .icon-star-lg:not(:first-child){
-    margin-left: -5px;
+    margin-left: -4px;
 }
 
 .icon-star-fill{
@@ -35,7 +35,6 @@
 }
 
 .btn{
-    border: none;
     color:black;
     font-size: 13px;
     font-weight: 300;
@@ -46,7 +45,11 @@
     border: 1px solid #ccd6e0;
     
     border-radius: 3px;
-    box-shadow: 2px 3px 5px 0 #8888886b;
+    box-shadow: 3px 4px 8px 0 #8888886b;
     padding: 10px 20px;
     border: 2px solid black;
+}
+
+.btn:hover{
+    box-shadow: 7px 8px 8px 0 #8888886b;
 }
