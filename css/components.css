@@ -34,7 +34,7 @@
     stroke: #999
 }
 
-.btn, .btn:visited{
+.btn{
     color:black;
     font-size: 13px;
     font-weight: 300;
@@ -57,7 +57,7 @@
     transform: translateY(-.3rem);
 }
 
-.reviews__actions--askquestion:focus{
+.reviews__actions--askquestion:active{
     box-shadow: none;
     transform: translateY(.1rem);
 }
