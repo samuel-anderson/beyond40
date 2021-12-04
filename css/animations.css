@@ -21,7 +21,7 @@
         transform: rotate(15deg)
     }
 
-    4% {
+    /* 4% {
         transform: rotate(-18deg)
     }
 
@@ -55,6 +55,6 @@
 
     20% {
         transform: rotate(0deg)
-    }
+    } */
     
 }
