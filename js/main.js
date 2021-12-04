@@ -37,7 +37,7 @@ $(function(){
     populateRatingCounts();
     calculateRatingBars()
     
-    $(".popup").click(()=> {
+    $(".reviews__actions--writereview").click(()=> {
         $(this).css("visibility","visible");
     })
 
