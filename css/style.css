@@ -163,7 +163,7 @@
     left: 0;
     background-color: black;
     
-    z-index: 9999;
+    z-index: 9000;
 
     opacity: 0;
     visibility: hidden;
@@ -175,7 +175,7 @@
 
 .popup__content{
     width: 75%;
-    background-color: white;
+    background-color: #fff;
     opacity: 1;
     z-index: 9999;
 }
