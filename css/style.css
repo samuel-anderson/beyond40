@@ -121,7 +121,8 @@
     margin-left: 1.5rem;
     
 }
-.reviews__actions--askquestion{
+.reviews__actions--askquestion,
+.reviews__actions--askquestion:active::after{
     display: flex;
     justify-content: center;
     align-items: center;  
@@ -137,7 +138,8 @@
     transform: translateY(.1rem);
 }
 
-.reviews__actions--writereview{
+.reviews__actions--writereview,
+.reviews__actions--writereview:active::after{
     display: flex;
     justify-content: center;
     align-items: center;
