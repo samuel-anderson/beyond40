@@ -47,7 +47,7 @@
     border-right: 1px solid #eee;
 }
 
-.reviews__ratings:hover{
+.reviews__ratings:hover .reviews__ratings__summary{
     opacity: .5;
 }
 .reviews__ratings__summary{
