@@ -220,4 +220,6 @@
     margin-top: 0.7rem;
     display: block;
     transition: all .3s;
+    opacity: 0;
+    visibility: hidden;
 }
