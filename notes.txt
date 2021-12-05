@@ -1,3 +1,7 @@
+
+Server: https://beyond40-samuel-anderson.vercel.app/
+GitHub Repo: https://github.com/samuel-anderson/beyond40
+
 jQuery:
     - Populates ratings and total reviews text
     - Calculates rating bar percentage widths
