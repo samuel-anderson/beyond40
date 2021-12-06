@@ -65,14 +65,13 @@
     margin-top: 10px;
     font-family: Lato,sans-serif;
 }
+
+.reviews__overview--summary:hover span{
+    transform: scale(1.2);
+}
 #totalReviews{
     text-decoration: underline;
     font-weight: 900;
- 
-}
-
-.reviews__overview--summary:hover #totalReviews{
-    transform: scale(1.1);
 }
 .reviews__ratings{
     display: flex;
