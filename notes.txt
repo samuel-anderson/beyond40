@@ -17,4 +17,4 @@ css:
 
 mobile responsiveness:
     - media queries for small devices
-    - screenshots under moible_screenshots folder in project director
+    - images under moible_screenshots folder in project director
