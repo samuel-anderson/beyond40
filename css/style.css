@@ -68,10 +68,10 @@
 #totalReviews{
     text-decoration: underline;
     font-weight: 900;
-    transition: all .2s;
+ 
 }
 
-.reviews__overview--summary:hover span{
+.reviews__overview--summary:hover #totalReviews{
     transform: scale(1.1);
 }
 .reviews__ratings{
