@@ -14,6 +14,7 @@ css:
     - OnHover opacity effect for rating bar 
     - Onhover effect for reviews heading 
     - OnHover effect for action buttons (pressing illusion)
+    - OnHover effect for total reviews
 
 mobile responsiveness:
     - media queries for small devices
