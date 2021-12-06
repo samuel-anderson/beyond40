@@ -1,6 +1,7 @@
 $(function(){
 
     const data = {
+        rating:4.9,
         totalReviews: 3219,
         fiveStar: 2928,
         fourStar: 229,
@@ -18,6 +19,7 @@ $(function(){
     }
     
     const populateRatingCounts = () => {
+        $("#rating").text(data.rating)
         $("#totalReviews").text(formatNumber(data.totalReviews));
         $("#5-star-count").text(data.fiveStar);
         $("#4-star-count").text(data.fourStar)
