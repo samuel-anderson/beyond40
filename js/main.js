@@ -44,6 +44,12 @@ $(function(){
         $(".popup").css("opacity",.8);
     })
 
+    $(".reviews__actions--askquestion").click(()=> {
+        $(".popup").css("visibility","visible");
+        $(".popup").css("opacity",.8);
+    })
+
+
     $(".popup__close").click(()=> {
         $(".popup").css("visibility","hidden");
         $(".popup").css("opacity",0);
