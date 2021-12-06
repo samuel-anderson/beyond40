@@ -66,15 +66,12 @@
     font-family: Lato,sans-serif;
 }
 
-
 #totalReviews{
     text-decoration: underline;
     font-weight: 900;
-    transition: all .2s;
+ 
 }
-#totalReviews:hover {
-    transform: scale(1.2);
-}
+
 
 .reviews__ratings{
     display: flex;
