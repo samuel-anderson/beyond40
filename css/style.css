@@ -71,8 +71,8 @@
     transition: all .2s;
 }
 
-#totalReviews:hover {
-    transform: scale(2);
+.reviews__overview--summary:hover span{
+    transform: scale(1.1);
 }
 .reviews__ratings{
     display: flex;
