@@ -55,7 +55,4 @@ $(function(){
         $(".popup").css("opacity",0);
     })
 
-
-
-  
 });

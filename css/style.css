@@ -49,6 +49,7 @@
     font-size: 37px;
     line-height: 30px;
     font-weight: 800;
+    cursor: default;
 
     
 
@@ -65,13 +66,11 @@
     margin-top: 10px;
     font-family: Lato,sans-serif;
 }
-
 #totalReviews{
     text-decoration: underline;
     font-weight: 900;
  
 }
-
 .reviews__ratings{
     display: flex;
     flex-direction: column;

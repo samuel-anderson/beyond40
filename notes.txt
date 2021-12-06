@@ -5,8 +5,7 @@ GitHub Repo: https://github.com/samuel-anderson/beyond40
 jQuery:
     - Populates ratings and total reviews text
     - Calculates rating bar percentage widths
-    - OnClick for Write Review button will open empty popup box (where potential form can be)
-        - I left it unfinished intentionally so that I didn't use too much time focusing on items that weren't apart of the scope of the assignment
+    - OnClick for Write Review/Ask a Question button will open empty popup box (where potential form can be)
 
 css:
     - OnHover shaking animation for 4.9 rating 
